@@ -182,62 +182,60 @@ const workExperiences = {
       company: "Hakishop",
       companylogo: require("./assets/images/whatnot.png"),
       date: "Jan 2023 – Jun 2023",
-      desc: "Small business venture where I've successfully sold over $10,000 worth of product in a matter of 6+ months.",
-      descBullets: [
-        "Cultivated a loyal customer base through personalized interactions, fostering trust and loyalty within the community",
-        "Developed and executed creative marketing strategies to drive sales and increase brand visibllity.",
-        "Increased audience engagement and revenue with a following of over 1000+ ",
-        "Achieved significant milestone by successfully selling over $10,000 worth of products through engaging e-commerce live streams, demonstrating exceptional sales acumen and fostering strong customer relationships"
-      ]
+      desc: "Applied data analysis techniques and implemented sales strategies to optimize revenue generation and enhance customer satisfaction in e-commerce streaming services, showcasing proficiency in data-driven decision-making and customer-centric approaches.",
+      // descBullets: [
+      //   "Cultivated a loyal customer base through personalized interactions, fostering trust and loyalty within the community",
+        
+      // ]
     },
     {
       role: "Repair Technician",
       company: "FAO",
       companylogo: require("./assets/images/dayze.png"),
       date: "May 2022 – Oct 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Demonstrated strong problem-solving skills and technical expertise in diagnosing and resolving issues with electronic devices, ensuring maximum uptime and productivity for clients, highlighting aptitude for troubleshooting and technical problem-solving essential for technical roles."
     },
     {
       role: "Email Marketing Specialist",
       company: "Dallas Fitness Ambassadors",
       companylogo: require("./assets/images/dfa.png"),
       date: "May 2018 – Feb 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Directed and optimized email marketing campaigns, utilizing data analysis to drive engagement and improve campaign performance, showcasing proficiency in leveraging data analytics tools and strategies crucial for informed decision-making and optimization in various projects."
     },
     {
       role: "Web Design Intern",
       company: "WildBlueDesign",
       companylogo: require("./assets/images/dayze.png"),
       date: "Jun 2017 – April 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Contributed to the enhancement of website performance through SEO optimization, emphasizing a deep understanding of web technologies and principles, demonstrating familiarity with web development concepts and practices valuable for digital projects."
     },
     {
       role: "Social Media Manager",
       company: "DFC Headquarters",
       companylogo: require("./assets/images/dfc.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Managed projects and social media initiatives, effectively increasing audience engagement and traffic across digital platforms, demonstrating strong communication and project management skills essential for collaborative environments."
     },
     {
       role: "Team Director",
       company: "Dancing for a Cause",
       companylogo: require("./assets/images/dfc.png"),
       date: "8+ Years",
-      desc: "Involvement with a non-profit dance organization where I've built strong leadership and team building skills.  Held roles ranging from Team Director to Dance Instructor.."
+      desc: "Directed and mentored diverse teams, while leading classes as a Team Director at a non-profit dance organization, demonstrating exceptional leadership, communication, and team management abilities in a creative environment."
     },
     {
       role: "Server / Bartender",
       company: "Hospitality Ind.",
       companylogo: require("./assets/images/dayze.png"),
       date: "8+ Years",
-      desc: "Building strong interpersonal and communication skills while working in the hospitality inudstry."
+      desc: "Excelled in delivering outstanding customer service and thriving in fast-paced environments within the hospitality industry, showcasing unparalleled adaptability, multitasking prowess, and teamwork skills under pressure."
     },
     {
       role: "Entrepreneur / Digital Marketer",
       company: "Extra",
       companylogo: require("./assets/images/dayze.png"),
       date: "3+ Years",
-      desc: "Self taught experience where I've attempted and deployed several small businesses with experience in E-commerce, affiliate marketing, dropshipping, Amazon FBA."
+      desc: "Showcased initiative and adaptability through self-taught entrepreneurship in digital marketing ventures, honing analytical, problem-solving, and innovation skills in navigating various online business endeavors."
     }
   ]
 };
