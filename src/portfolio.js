@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Peang Ngo",
-  title: "Hi all, I'm Peang",
+  title: "Hi I'm Peang",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 experienced in building web applications with JavaScript / Python / React.js and other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1WFtfn8tDJIZWwVds7nDaUXCP7P3Hf8-njMejX0fhjoY/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,15 +50,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER EXPLORING FUN FRAMEWORKS AND LIBRARIES",
   skills: [
     emoji(
       "⚡ Develop highly engaging Front end / User Interfaces for web applications"
     ),
     emoji("⚡ Write QA tests to maintain proper functionality on any website"),
-    emoji(
-      "⚡ Integrate third party services (ex. AWS)"
-    )
+    emoji("⚡ Integrate third party services (ex. AWS, Google Cloud Platform)")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -66,11 +64,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     // {
@@ -78,15 +76,19 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fab fa-sass"
     // },
     {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     // {
@@ -98,27 +100,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL-Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
+
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "git",
+      skillName: "Git",
       fontAwesomeClassname: "fab fa-github"
     }
   ],
@@ -145,7 +144,7 @@ const educationInfo = {
       schoolName: "Richland College",
       logo: require("./assets/images/richland.png"),
       subHeader: "Associates in Liberal Arts",
-      duration: "September 2011 - September 2013",
+      duration: "September 2011 - September 2013"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -179,29 +178,66 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "E-commerce Streamer",
+      company: "Hakishop",
+      companylogo: require("./assets/images/whatnot.png"),
+      date: "Jan 2023 – Jun 2023",
+      desc: "Small business venture where I've successfully sold over $10,000 worth of product in a matter of 6+ months.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Cultivated a loyal customer base through personalized interactions, fostering trust and loyalty within the community",
+        "Developed and executed creative marketing strategies to drive sales and increase brand visibllity.",
+        "Increased audience engagement and revenue with a following of over 1000+ ",
+        "Achieved significant milestone by successfully selling over $10,000 worth of products through engaging e-commerce live streams, demonstrating exceptional sales acumen and fostering strong customer relationships"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Repair Technician",
+      company: "FAO",
       companylogo: require("./assets/images/dayze.png"),
+      date: "May 2022 – Oct 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Email Marketing Specialist",
+      company: "Dallas Fitness Ambassadors",
+      companylogo: require("./assets/images/dfa.png"),
+      date: "May 2018 – Feb 2019",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Web Design Intern",
+      company: "WildBlueDesign",
+      companylogo: require("./assets/images/dayze.png"),
+      date: "Jun 2017 – April 2018",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Social Media Manager",
+      company: "DFC Headquarters",
+      companylogo: require("./assets/images/dfc.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Team Director",
+      company: "Dancing for a Cause",
+      companylogo: require("./assets/images/dfc.png"),
+      date: "8+ Years",
+      desc: "Involvement with a non-profit dance organization where I've built strong leadership and team building skills.  Held roles ranging from Team Director to Dance Instructor.."
+    },
+    {
+      role: "Server / Bartender",
+      company: "Hospitality Ind.",
+      companylogo: require("./assets/images/dayze.png"),
+      date: "8+ Years",
+      desc: "Building strong interpersonal and communication skills while working in the hospitality inudstry."
+    },
+    {
+      role: "Entrepreneur / Digital Marketer",
+      company: "Extra",
+      companylogo: require("./assets/images/dayze.png"),
+      date: "3+ Years",
+      desc: "Self taught experience where I've attempted and deployed several small businesses with experience in E-commerce, affiliate marketing, dropshipping, Amazon FBA."
     }
   ]
 };
@@ -214,16 +250,20 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
+
+
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Cool Projects",
-  subtitle: "SOME COOL PROJECTS THAT HELPED ME LEARN NEW FRAMEWORKS AND LIBRARIES",
+  subtitle:
+    "SOME COOL PROJECTS THAT HELPED ME LEARN NEW FRAMEWORKS AND LIBRARIES",
   projects: [
     {
       image: require("./assets/images/dayze.png"),
       projectName: "Dayze",
-      projectDesc: "A social platform built to support a community sharing their journey of interests",
+      projectDesc:
+        "A social platform built to support a community sharing their journey of interests",
       footerLink: [
         {
           name: "Visit Website",
@@ -239,7 +279,8 @@ const bigProjects = {
     {
       image: require("./assets/images/parma-icon.png"),
       projectName: "Parmazon Prime",
-      projectDesc: "An E-commerce web application developed across one week in collaboration with three other developers",
+      projectDesc:
+        "An E-commerce web application developed across one week in collaboration with three other developers",
       footerLink: [
         {
           name: "Visit Website",
@@ -265,7 +306,7 @@ const bigProjects = {
           url: "https://github.com/pingno/API-Project"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -330,7 +371,6 @@ const achievementSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
