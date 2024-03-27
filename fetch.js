@@ -108,7 +108,8 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      // throw new Error(ERR.requestMediumFailed);
+      console.log('no medium profile')
     }
 
     res.on("data", d => {
